@@ -1,0 +1,18 @@
+# secrets and local env — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+mnemonic*.txt
+secrets/
+
+# deps and build
+node_modules/
+dist/
+build/
+coverage/
+.DS_Store
+*.log
